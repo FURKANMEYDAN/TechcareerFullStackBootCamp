@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Web Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <header>
+    <h1>X Mobilya</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#product">Ürünlerimiz</a></li>
+        <li><a href="#services">Hizmetlerimiz</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+       
+    </nav>
+    <nav class="alim-satim">
+        <ul>
+            <li>
+                 <a href="#" class="button">
+                     <img src="/img/search-interface-symbol.png" alt="resim">
+                 </a>
+            </li> 
+             <li>
+                 <a href="#" class="button">
+                     <img src="/img/shopping-cart.png" alt="resim2">
+                 </a>
+             </li> 
+         </ul>
+
+    </nav>
+   
+  </header>
+  <main>
+    <section  id="product">
+      <h2>Ürünlerimiz</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="/img/1.jpg" alt="resim">
+                <h3>Oturma Odası Grupları</h3>
+                <a href="#" class="button">Satın Al</a>
+            </div>
+            <div class="card">
+                <img src="/img/2.jpg" alt="resim">
+                <h3>Mutfak Grupları</h3>
+                <a href="#" class="button">Satın Al</a>
+            </div>
+            <div class="card">
+                <img src="/img/Banyo.jpg" alt="resim">
+                <h3>Banyo Grupları</h3>
+                <a href="#" class="button">Satın Al</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services">
+      <h2>Hizmetlerimiz</h2>
+      <ul>
+       <div class="solutions-container">
+            <div class="serv-img">
+                <img src="/img/settings.png" alt="services-img">
+                <h3>Kişiye Özel Tasarımlar<h3>    
+            </div>
+            <div class="turnkey-img">
+                <img src="/img/key.png" alt="turnkey-img">
+                <h3>Anahtar Teslim Çözümler</h3>
+            </div>
+            <div class="sec-img">
+                <img src="/img/secure-shield.png" alt="sec-img">
+                <h3>Ömür Boyu Güvence</h3>
+            </div>
+       </div>
+      </ul>
+    </section>
+
+    
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-left">
+        <div class="katalog">
+            <h3>Keşfet</h3>
+            <ul>
+                <li><a href="#" class="button">Mağazalarımız</a></li>
+                <li><a href="#" class="button">Kataloglarımız</a></li>
+                <li><a href="#" class="button">Odanıza Göre Seçimler</a></li>
+            </ul>
+            
+        </div>
+        
+    </div>
+    <div class="footer-center">
+        <form action="#" method="post">
+            <div class="form-grp">
+                <h3>Geri Bildirim Gönderin</h3>
+                <label for="email">Mail Adresiniz:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-grp">
+                <label for="message">Mesajınız:</label>
+                <textarea name="message" id="message"  rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn">Gönder</button>
+        </form>
+    </div>
+    <div class="footer-right">
+        <ul class="social-media">
+               <div class="contact">
+                    <h3>İletişim</h1>
+               </div>
+        </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,253 @@
+body, h1, h2, h3, p, ul, li {
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #DEDBC1;
+  }
+  
+  header {
+    background-color: #C9AB7E;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .navbar ul{
+
+    list-style: none;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #3C4142;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out; 
+  }
+  .navbar ul li a:hover{
+    background-color: #a49494;
+
+  }
+  
+  .alim-satim ul{
+
+    position: static;
+    float: right;
+    list-style:none;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+  }
+   .alim-satim ul li a img{
+    justify-content: space-around;    
+    width: 25px;
+    height: 25px;
+
+  }
+  
+  main {
+    padding: 0;
+  }
+  
+  section { 
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+  }
+  .solutions-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .serv-img img{
+        margin-top: 30px;
+        width: 80px;
+        height: 80px;
+  }
+  .serv-img h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+    .turnkey-img img{
+        margin-top: 30px;
+        width: 80px;
+        height: 80px;
+  }
+  .turnkey-img h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .sec-img img{
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    }
+    .sec-img h3{    
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+  section h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #F5F5DC;
+    border-radius: 8px;
+    box-shadow: transform 0.3s ease-in-out;
+  }
+  .card:hover{
+    transform:scale(1.2);
+  }
+  .card a{
+    text-decoration: none;
+    color: #3C4142;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold; 
+  }
+  .card a:hover{
+    background-color: #a49494;
+
+  }
+  
+  .card img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+  }
+  .card h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+  }
+  .card p{
+    font-size: 16px;
+    margin-bottom: 20px;
+
+  }
+  .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn:hover{
+    background-color: #555;
+  }
+
+  footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #AFAD9F;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer label,.footer p{
+        color:#fff;
+  }
+  .footer-left{
+    text-align: center;
+    flex: 1;
+  } 
+  .katalog ul li a{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out; 
+  }
+  .katalog li a:hover{
+        background-color: #333;
+  }
+
+  .footer-center{
+    text-align: center;
+    flex: 1;
+  }
+  .footer-center h3{
+    font-size: 16px;
+  }
+  .footer-right{
+    text-align: center;
+    flex: 1;
+  }
+  
+  .form-grp{
+    margin-top: 10px;
+
+  }
+  .form-grp h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+  .form-grp label{
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  input[type="text"]
+  input[type="email"]
+  textarea{
+    width:calc(100%-16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  } 
+  button[type="submit"]{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+  } 
+  button[type="submit"]:hover{
+    background-color: #555;
+
+  }
+  .contact h3{
+    margin-top: 10px;
+    text-align: center;
+  }
+
