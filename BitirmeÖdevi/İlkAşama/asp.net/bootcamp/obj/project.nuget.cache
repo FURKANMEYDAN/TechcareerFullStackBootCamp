@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qbJatqoLsvkUTo5bhaoVa3g6WsC9qZPC0rGvYiC52ahErPobsWd1ZBXbjvNOVBe/mpquSinWk3tQhK6FLrkk7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FURKAN\\Desktop\\Masaüstü\\Bootcamp\\asp.net\\bootcamp\\bootcamp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FURKAN\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\FURKAN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\FURKAN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\FURKAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
